@@ -14,4 +14,4 @@ do_install:append:rpi () {
 }
 
 # Temporary avoid Raspberry Pi 5 because U-Boot has not been ported yet
-COMPATIBLE_MACHINE:raspberrypi5 = "(-)"
+# COMPATIBLE_MACHINE:raspberrypi5 = "(-)"
